@@ -29,7 +29,7 @@ function adicionaLinha () {
         contato.push(inputNomeContato.value)
         numero.push(inputNumeroContato.value)
 
-        
+        document.querySelector('#adsucesso').style.display = 'block'
         let linha = '<tr>';
         linha += `
         <td>${inputNomeContato.value}</td>`
@@ -45,6 +45,8 @@ function adicionaLinha () {
 form.addEventListener('input', () => {
     document.querySelector('#adicionado').style.display = 'none'
     document.querySelector('#numeroAdc').style.display = 'none'
+    document.querySelector('#adsucesso').style.display = 'none'
+
 })
 
 function atualizaTabela () {

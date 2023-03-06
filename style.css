@@ -105,14 +105,36 @@ table td {
     width: 100%;
     align-items: center;
     justify-content: center;
+    border-radius: 25px;
     display: none;
 }
 
-span {
+.nome-adc span {
     background-color: red;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
 }
+
+.sucesso {
+    background-color: green;
+    padding: 10px 10px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    display: none;
+}
+
+.sucesso span {
+    background-color: green;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
 
 
